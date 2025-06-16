@@ -4,9 +4,6 @@ A deep learning-powered web app to forecast stock prices using historical data, 
 🚀 Demo
 Launch the app locally with:
 
-bash
-Copy
-Edit
 streamlit run app.py
 🔍 Overview
 This project predicts future stock prices based on historical closing prices using a trained LSTM model. It provides:
@@ -40,35 +37,21 @@ Model	LSTM (Pre-trained Keras model)
 Scaler	scikit-learn MinMaxScaler
 
 📂 Folder Structure
-bash
-Copy
-Edit
 ├── app.py                      # Main app file
 ├── stock_price_prediction.keras  # Pre-trained LSTM model
 ├── README.md                   # Project README
 ├── requirements.txt            # Python dependencies
+
 ⚙️ Installation
 1. Clone the repository
-bash
-Copy
-Edit
 git clone https://github.com/Prathmeshkangane/Stock-Price-Predictor.git
 cd Stock-Price-Predictor
 2. Create a virtual environment
-bash
-Copy
-Edit
 python -m venv .venv
 .\.venv\Scripts\activate  # For Windows
 3. Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 ▶️ Run the App
-bash
-Copy
-Edit
 streamlit run app.py
 Open the link shown in the terminal, usually:
 http://localhost:8501
